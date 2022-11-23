@@ -8,6 +8,7 @@ function start(){
         changePosition(buttonMove)
     })
     buttonNot.addEventListener('mouseover', () =>{
+        changePosition(buttonMove)
         changeVisibility(buttonNot, true)
         changeVisibility(buttonMove, false)
     })
